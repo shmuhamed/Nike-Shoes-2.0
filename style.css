@@ -169,3 +169,18 @@
     margin-top: 30px;
     height: 30px;
 }
+@media (max-width: 490px){
+    .container form {
+        border-radius: 5px;
+        padding: 20px;
+        width: 359px;
+        padding-top: 160px;
+    } 
+    .container .card-container .front {
+        position: absolute;
+        height: 95%;
+        width: 90%;
+        top: 0;
+        left: 20px;
+    }
+}
